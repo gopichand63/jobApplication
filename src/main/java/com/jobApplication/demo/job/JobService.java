@@ -8,4 +8,8 @@ public interface JobService {
     void createJob(Job job);
 
     Job getJobById(Long id);
+
+    boolean deleteById(Long id);
+
+    boolean updateJob(Long id, Job updatedJob);
 }
