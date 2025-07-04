@@ -22,4 +22,9 @@ public class ReviewServiceimpl implements ReviewService {
         return reviews;
 
     }
+
+    @Override
+    public void addReview(Long companyId, Review review) {
+
+    }
 }
